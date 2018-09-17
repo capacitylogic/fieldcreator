@@ -4,8 +4,6 @@ import urlparse
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
 
-#Disabling collectstatic https://devcenter.heroku.com/articles/django-assets
-heroku config:set DISABLE_COLLECTSTATIC=1
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
